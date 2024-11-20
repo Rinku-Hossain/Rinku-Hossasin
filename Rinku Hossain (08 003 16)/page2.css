@@ -1,0 +1,112 @@
+*{padding: 0%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    body{
+    background-color: aliceblue;
+    }
+    
+    .container{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    }
+    
+    
+    header{
+        background-color: #0b3a1c;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    
+h2{
+    border-bottom: #333 2px solid;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #333;
+width: 20%;
+margin-left: 40%;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+th, td{
+    border:1px solid #a2a2b5;
+    padding: 15px;
+}
+table{
+    width:100%;
+}
+th{
+    background-color: #10582a;
+    color: white;
+}
+
+table tr:nth-child(even){
+    background-color: #c4f2d5 ;
+}
+
+table tr:nth-child(even):hover{
+    background-color: #93f0b5;
+}
+
+table tr:nth-child(odd):{
+    background-color:  white;
+}
+
+table tr:nth-child(odd):hover{
+    background-color: rgb(214, 211, 225);
+}
+footer{
+    text-align: center;
+    background-color: #10582a;
+    color: white;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+nav{
+    background-color: #24643c ;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    border-left: 5px solid rgb(37, 153, 83);
+    border-right: 5px solid  rgb(37, 153, 83) ;
+    padding-botto }
+    
+    
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content:center;
+        padding: 5PX 0;
+    }
+    
+    nav ul li {
+        margin: 0 30px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 8px 15px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+        background-color: #073317;
+        
+        border-radius: 2px;
+    }
